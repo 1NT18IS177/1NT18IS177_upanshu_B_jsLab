@@ -1,18 +1,12 @@
-//Title : Looping
-//Description: Small code snippet to show looping in js
-//Author: Sujanram B
-//Date : 20-05-21
 
-
-
-var val=1;
-let arr= [2,3,4,'abc',true,val]
+var num = 10;
+let arr = [2, 3, 4, 'abc', true, num]
 
 
 console.log(`${arr}`);
 
-for(let i=0;i<arr.length;i++)
-    console.log(arr[i] +" -> " +typeof(arr[i]));
+for(let i=0; i<arr.length; i++)
+    console.log(arr[i] +" -> " + typeof(arr[i]));
 
 
 let obj = [{'usn': 1231 , 'name': 'abs' }, {'usn': 3242 , 'name': 'abdas' }]
